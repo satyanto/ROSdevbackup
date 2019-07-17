@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/hafidh/Development/ROSdev/devel -DCMAKE_INSTALL_PREFIX=/home/hafidh/Development/ROSdev/install -G Unix Makefiles
