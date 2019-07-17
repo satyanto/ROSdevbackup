@@ -197,3 +197,7 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(annoyingchatterer src/output.cpp)
+target_link_libraries(annoyingchatterer ${catkin_LIBRARIES})
+
