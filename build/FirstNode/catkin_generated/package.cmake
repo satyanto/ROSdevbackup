@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "FirstNode")
 set(FirstNode_VERSION "0.0.0")
-set(FirstNode_MAINTAINER "hafidh <hafidh@todo.todo>")
+set(FirstNode_MAINTAINER "hafidh <hafidhsatyanto@gmail.com>")
 set(FirstNode_PACKAGE_FORMAT "2")
 set(FirstNode_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
 set(FirstNode_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "std_msgs")
