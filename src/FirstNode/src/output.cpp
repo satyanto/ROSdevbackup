@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 
         loop_rate.sleep();
 
-        ++count;
+        ++cnt;
     }
 
     return 0;

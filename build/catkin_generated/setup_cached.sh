@@ -7,8 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hafidh/Development/ROSdev/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/hafidh/Development/ROSdev/devel/lib:$LD_LIBRARY_PATH"
 export PWD="/home/hafidh/Development/ROSdev/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hafidh/Development/ROSdev/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hafidh/Development/ROSdev/src:$ROS_PACKAGE_PATH"
