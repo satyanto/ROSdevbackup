@@ -201,3 +201,9 @@ include_directories(
 add_executable(annoyingchatterer src/output.cpp)
 target_link_libraries(annoyingchatterer ${catkin_LIBRARIES})
 
+add_executable(boolycall src/boolycall.cpp)
+target_link_libraries(boolycall ${catkin_LIBRARIES})
+
+add_executable(boolylisten src/boolylisten.cpp)
+target_link_libraries(boolylisten ${catkin_LIBRARIES})
+
