@@ -1,0 +1,11 @@
+Hello.
+
+'ROSDEV' is in itself a Catkin workspace.
+
+A Catkin workspace includes 3 folders:
+    build
+    devel
+    src
+
+It also inclues a 'README' (because of Github Repo) and a hidden
+file called .catkin_workspace for CMAKE/Compilation purposes.
