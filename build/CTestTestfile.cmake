@@ -1,8 +1,16 @@
 # CMake generated Testfile for 
-# Source directory: /home/hafidh/Development/ROSdev/src
-# Build directory: /home/hafidh/Development/ROSdev/build
+# Source directory: /home/robotics/Development/ROSdev/src
+# Build directory: /home/robotics/Development/ROSdev/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs("gtest")
-subdirs("FirstNode")
+subdirs(gtest)
+subdirs(franka_ros/franka_description)
+subdirs(franka_ros/franka_ros)
+subdirs(franka_ros/franka_msgs)
+subdirs(FirstNode)
+subdirs(franka_ros/franka_gripper)
+subdirs(franka_ros/franka_visualization)
+subdirs(franka_ros/franka_hw)
+subdirs(franka_ros/franka_control)
+subdirs(franka_ros/franka_example_controllers)

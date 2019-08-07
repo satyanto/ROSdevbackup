@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hafidh/Development/ROSdev/src/FirstNode/src/output.cpp" "/home/hafidh/Development/ROSdev/build/FirstNode/CMakeFiles/annoyingchatterer.dir/src/output.cpp.o"
+  "/home/robotics/Development/ROSdev/src/FirstNode/src/output.cpp" "/home/robotics/Development/ROSdev/build/FirstNode/CMakeFiles/annoyingchatterer.dir/src/output.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/ros/melodic/include"
-  "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/opt/ros/kinetic/include"
+  "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.

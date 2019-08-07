@@ -1,2 +1,2 @@
-FirstNode
--DCATKIN_DEVEL_PREFIX=/home/hafidh/Development/ROSdev/devel -DCMAKE_INSTALL_PREFIX=/home/hafidh/Development/ROSdev/install -G Unix Makefiles
+FirstNode:franka_ros/franka_control:franka_ros/franka_description:franka_ros/franka_example_controllers:franka_ros/franka_gripper:franka_ros/franka_hw:franka_ros/franka_msgs:franka_ros/franka_ros:franka_ros/franka_visualization
+-DCMAKE_BUILD_TYPE=Release -DFranka_DIR:PATH=~/libfranka/build -DCATKIN_DEVEL_PREFIX=/home/robotics/Development/ROSdev/devel -DCMAKE_INSTALL_PREFIX=/home/robotics/Development/ROSdev/install -G Unix Makefiles

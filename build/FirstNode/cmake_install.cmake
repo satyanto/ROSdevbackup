@@ -1,8 +1,8 @@
-# Install script for directory: /home/hafidh/Development/ROSdev/src/FirstNode
+# Install script for directory: /home/robotics/Development/ROSdev/src/FirstNode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hafidh/Development/ROSdev/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robotics/Development/ROSdev/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -32,23 +32,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robotics/Development/ROSdev/build/FirstNode/catkin_generated/installspace/FirstNode.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hafidh/Development/ROSdev/build/FirstNode/catkin_generated/installspace/FirstNode.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FirstNode/cmake" TYPE FILE FILES
-    "/home/hafidh/Development/ROSdev/build/FirstNode/catkin_generated/installspace/FirstNodeConfig.cmake"
-    "/home/hafidh/Development/ROSdev/build/FirstNode/catkin_generated/installspace/FirstNodeConfig-version.cmake"
+    "/home/robotics/Development/ROSdev/build/FirstNode/catkin_generated/installspace/FirstNodeConfig.cmake"
+    "/home/robotics/Development/ROSdev/build/FirstNode/catkin_generated/installspace/FirstNodeConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FirstNode" TYPE FILE FILES "/home/hafidh/Development/ROSdev/src/FirstNode/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FirstNode" TYPE FILE FILES "/home/robotics/Development/ROSdev/src/FirstNode/package.xml")
 endif()
 

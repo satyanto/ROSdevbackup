@@ -1,8 +1,8 @@
-prefix=/home/hafidh/Development/ROSdev/devel
+prefix=/home/robotics/Development/ROSdev/devel
 
 Name: FirstNode
 Description: Description of FirstNode
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/hafidh/Development/ROSdev/devel/lib 
+Libs: -L/home/robotics/Development/ROSdev/devel/lib 
 Requires: 

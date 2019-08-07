@@ -1,0 +1,8 @@
+prefix=/home/robotics/Development/ROSdev/install
+
+Name: franka_visualization
+Description: Description of franka_visualization
+Version: 0.7.0
+Cflags: 
+Libs: -L/home/robotics/Development/ROSdev/install/lib 
+Requires: sensor_msgs roscpp
